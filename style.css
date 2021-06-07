@@ -140,7 +140,7 @@ nav a:focus {
 .banner_center {
 	width: 50%;
 	position: absolute;
-	top: 40%;
+	top: 30%;
 	left: 50%;
 	text-align: center;
 
@@ -207,7 +207,7 @@ ul.wmuSliderPagination {
 }
 .services-header h3
 {
-	font-size: 2.5em;
+	font-size: 3.5em;
 	font-family: 'Arvo', serif;
 	text-transform: uppercase;
 	font-weight: 400;
@@ -294,8 +294,8 @@ ul.wmuSliderPagination {
 	height: 3px;
 	width: 7%;
 	background: #FFF0CA;
-	display: block;
-	position: absolute;
+	display: flex;
+	position: relative;
 	right: 47%;
 	bottom: 52%;
 	margin: -10px 0;
@@ -465,9 +465,7 @@ ul.wmuSliderPagination {
 	-o-transition: all 0.5s linear;
 	-webkit-transition: all 0.5s linear;
 }
-/*-----------------------------------------------------------------------------------*/
-/*	Animation effects
-/*-----------------------------------------------------------------------------------*/
+/* /*	Animation effects */
 .b-animate-go{
 	text-decoration:none;
 }
@@ -489,7 +487,6 @@ ul.wmuSliderPagination {
 
 	display: -webkit-inline-box;
 }
-/* lt-ie9 */
 .b-animate-go:hover .b-animate{
 	visibility:visible;
 }
@@ -500,47 +497,6 @@ ul.wmuSliderPagination {
 .b-animate-go:hover .b-from-left{
 	left:0;
 }
-.zoom-icon {
-	position: absolute;
-	opacity: 0;
-	filter: alpha(opacity=0);
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=0)";
-	display: block;
-	left: 0;
-	top: 0px;
-	width: 290px;
-	height: 85%;
-	background: url(../images/zoom-icon.png) center center no-repeat;
-	cursor: pointer;
-	transition: all .2s ease-in-out;
-	-webkit-transition: all .2s ease-in-out;
-	-moz-transition: all .2s ease-in-out;
-	-o-transition: all .2s ease-in-out;
-}
-.grid_box .zoom-icon {
-	width:100%;	
-}
-.grid_box a:hover .zoom-icon {
-	top:20px;
-	opacity: 1;
-	filter: alpha(opacity=99); 
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=99)";
-}
-#portfoliolist .portfolio {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-o-box-sizing: border-box;
-	width: 24%;
-	display:none;
-	float:left;
-	overflow:hidden;
-	margin: 0px 1% 2% 0;
-}
-div#portfoliolist {
-	padding: 20px 20px 0 20px;
-	background: url("../images/left.png") no-repeat;
-	background-size: 100% 100%;
-}	
 .portfolio-wrapper {
 	overflow:hidden;
 	position: relative !important;
@@ -552,7 +508,7 @@ div#portfoliolist {
 	-webkit-transition: all 300ms!important;
 	-moz-transition: all 300ms!important;
 }
-/******** SAP ************/
+/* /sap tabs */
 .sap_tabs{
 	clear:both;
 	padding: 0em 0 0em;
@@ -581,10 +537,6 @@ text-align:right;
 	display: inline-block;
 	list-style: none;
 	outline: none;
-	-webkit-transition: all 0.3s ease-out;
-	-moz-transition: all 0.3s ease-out;
-	-ms-transition: all 0.3s ease-out;
-	-o-transition: all 0.3s ease-out;
 	transition: all 0.3s ease-out;
 	text-transform:uppercase;
 }
@@ -745,42 +697,6 @@ padding:30px 0;
 }
 .social-icon a i.icon2:hover{
 	background-position:-40px -40px;
-}
-.social-icon a i.icon3{
-	background-position:-80px 0px;
-}
-.social-icon a i.icon3:hover{
-	background-position:-80px -40px;
-}
-.social-icon i.icon4{
-	background-position:-120px 0px;
-}
-.social-icon a i.icon4:hover{
-	background-position:-120px -40px;
-}
-.social-icon i.icon5{
-	background-position:-160px 0px;
-}
-.social-icon a i.icon5:hover{
-	background-position:-160px -40px;
-}
-.social-icon i.icon6{
-	background-position:-200px 0px;
-}
-.social-icon a i.icon6:hover{
-	background-position:-200px -40px;
-}
-.social-icon i.icon7{
-	background-position:-240px 0px;
-}
-.social-icon a i.icon7:hover{
-	background-position:-240px -40px;
-}
-.social-icon i.icon8{
-	background-position:-280px 0px;
-}
-.social-icon a i.icon8:hover{
-	background-position:-280px -40px;
 }
 .contact {
 	padding-bottom:4em;
