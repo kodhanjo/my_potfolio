@@ -122,7 +122,7 @@ nav a:focus {
 	transform: translateY(-100%);
 }
 
-/***** Slider *****/
+/***** Slide *****/
 .banner-wrap {
 	padding-top: 30em;
 }
@@ -141,7 +141,7 @@ nav a:focus {
 	width: 50%;
 	position: absolute;
 	top: 40%;
-	left: 25%;
+	left: 50%;
 	text-align: center;
 
 }
