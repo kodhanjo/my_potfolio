@@ -185,7 +185,7 @@ ul.wmuSliderPagination {
 	width: 15px;
 	display: inline-block;
 	border: 3px solid #CCCECE;
-	-webkit-border-radius: 50%;
+	-webkit-bordr-radius: 50%;
 }
 .wmuSliderPagination a.wmuActive {
 	background: #ef664d;
